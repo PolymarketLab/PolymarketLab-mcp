@@ -7,7 +7,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "smithery dev",
-		"build": "smithery build"
+		"build": "smithery build",
+		"start": "node .smithery/index.cjs"
 	},
 	"keywords": [
 		"mcp",
@@ -24,7 +25,7 @@
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/YOUR_USERNAME/polymarket-mcp"
+		"url": "https://github.com/PolymarketLab/PolymarketLab-mcp"
 	},
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.20.0",
